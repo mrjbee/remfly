@@ -1,3 +1,4 @@
-Remfly. Remote file manager.
-======
-JQuery mobile based file manager with java Rest backend.
+toolsbox
+========
+
+Toolsbox server framework and set of applications on top of it

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "1.0.0",
+  "swaggerVersion": "1.2",
+  "apis": [
+    {
+      "path": "-impl/config",
+      "description": "Operations about server config"
+    }
+  ],
+  "info": {
+    "title": "Remfly Server",
+    "description": "This is a 'Remfly' server API console."
+  }
+}

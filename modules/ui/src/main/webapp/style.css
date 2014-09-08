@@ -1,0 +1,193 @@
+
+.ui-icon-fly:after {
+    background-image: url("fly_21.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+
+
+#navbar{
+    padding: 0;
+    margin: 0;
+}
+.top-panel {
+    width: 45%;
+    margin: 2% 2% 2% 2%;
+}
+
+
+@media all and (max-width: 1000px) {
+	.grid-content .ui-block-a,
+	.grid-content .ui-block-b {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media all and (max-width: 1000px) {
+    .dognail-width{
+        width: 100% !important;
+    }
+}
+
+
+@media all and (max-width: 400px) {
+    .grid-value .ui-block-c,
+    .grid-value .ui-block-d {
+        width: 100%;
+        float: none;
+    }
+}
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrap {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+#storage-browser-list{
+    margin: 0;
+}
+
+#file-browser-list{
+    margin: 0;
+}
+#download-form-list{
+    margin: 0;
+}
+
+#downloads-browser-list{
+    margin: 0;
+}
+
+.top-cover {
+    position: fixed;
+    background-color: #fafafa;
+    background-image: url("resources/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.top-page{
+   background-color: transparent;
+}
+
+.ui-body-a {
+    background-color: rgba(255,255,255, 0.30);
+    padding: 5px;
+}
+
+.text-value {
+    padding-left: 10px;
+    color:#436DBA;
+}
+
+.ui-grid{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.transperent-panel {
+    background-color: rgba(255,255,255, 0.80);
+    padding: 10px 10px 10px 10px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 3px #000000;
+}
+
+
+.warning{
+    color: #A10342;
+    margin: 2px 2px 2px 2px;
+ }
+
+#lockPanel{
+    background-color: rgba(0,0,0, 0.80);
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+
+.task-panel{
+    background-color: rgba(255,255,255, 0.95);
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 3px #000000;
+    margin: 10px;
+    padding: 0px;
+}
+
+.task-header{
+   font-size: 1.2em;
+   padding-left: 5px;
+}
+.task-body{
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 0.9em;;
+}
+
+.task-footer{
+    padding: 3px;
+    padding-left: 5px;
+}
+.task-footer label{
+    font-size: 0.7em;
+}
+.task-footer span {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.raw-data{
+    color:#436DBA;
+}
+.progress-bar{
+    display: table;
+}
+.progress-bar label {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.progress-bar .ui-slider {
+    display: table-cell;
+    width: 100%;
+}
+
+.act-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.progress-bar input[type=range], .ui-slider-handle {
+    display: none;
+}
+.progress-bar .ui-slider-track {
+    margin: 0px;
+}
